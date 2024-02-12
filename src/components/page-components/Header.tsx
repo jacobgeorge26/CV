@@ -21,7 +21,7 @@ function Header({ }) {
         <div>
           <div className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
             {RESUME_DATA.contact.social.toSorted(a => 1 - a.url.length).map(social => (
-              <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground" key={social.name}>
                 {social.url.replace("https://", "").replace("www.", "")}
               </p>
             ))}
