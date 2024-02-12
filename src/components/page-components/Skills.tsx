@@ -11,7 +11,7 @@ function Skills({ }) {
       <div className="flex flex-wrap gap-1 justify-center">
         {
           RESUME_DATA.skills.map((skill) => {
-            return <b className="text-xs mx-2">{skill}</b>;
+            return <b className="text-xs mx-2" key={skill}>{skill}</b>;
           })
         }
       </div >
