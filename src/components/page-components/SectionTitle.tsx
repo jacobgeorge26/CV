@@ -1,6 +1,11 @@
 import * as React from "react";
 
-function SectionTitle({ isLocal, title }) {
+interface Props {
+  isLocal?: boolean,
+  title?: string
+}
+
+function SectionTitle({ isLocal, title }: Props) {
   return (
     <h2 className={"font-bold " + (isLocal ? 'text-l ' : 'text-xl')}>{title}</h2>
   );
