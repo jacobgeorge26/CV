@@ -1,6 +1,7 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
+  isLocal: true,
   name: "Jacob Brown",
   initials: "JB",
   location: "Brighton, UK",
@@ -13,7 +14,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "",
   contact: {
     email: "jacobgeorgebrown26@gmail.com",
-    tel: "+447482916862",
     social: [
       {
         name: "GitHub",
@@ -43,6 +43,7 @@ export const RESUME_DATA = {
         "Created a No-SQL database of JSON files to store data in a GitHub repo, alongside Cue Blox data validation. Docusaurus was used to serve a static site and a GraphQL API.",
         "Collaborated with my team to publish a Unity package, enabling users to isolate their bug into a repro project to submit alongside their bug report.",
         "Converted a CI/CD pipeline from shell scripts into GitHub Actions and Nuke.",
+        "Participated in scrum ceremonies as part of our agile work practices.",
         "Mentored our 2022/23 intern and organised a test workshop with the wider team to improve our code coverage."
       ]
     },
@@ -57,8 +58,7 @@ export const RESUME_DATA = {
         "Throughout my internship, I was supported by a network of mentors helping develop both my technical and interpersonal skills.",
       highlights: [
         "Created an ASP.NET web app for an internal team. Entity Framework and CloudSQL were used for the backend, Blazor for the frontend.",
-        "Identified pain points in the manual release processes, and created scripts to streamline them.",
-        "Co-ordinated with teams across the entire company to identify and remove blockers to their upcoming releases",
+        "Co-ordinated with teams across the entire company to identify pain points in their manual release processes, and created scripts to streamline them.",
         "Organised a book club for my intern cohort to discuss books covering DEI topics. I also established a 'Bring Another Intern To Work' initiative for us to gain insights into each other's roles."
       ]
     },
@@ -87,30 +87,26 @@ export const RESUME_DATA = {
       end: "2022",
     },
   ],
-  confidentSkills: [
+  skills: [
     "C#",
-    ".NET 7",
+    ".NET",
     "ASP.NET",
     "REST APIs",
     "Pub/Sub",
-    "Relational databases",
+    "SQL",
     "No-SQL databases",
     "Docker",
     "Blazor",
     "Entity Framework",
     "CI/CD",
-    "Cue Blox",
     "TDD",
-    "Nuke",
+    "Nuke Build",
     "GCP",
     "GitHub Actions",
-    "Git"
-  ],
-  familiarSkills: [
+    "Git",
     "Kubernetes",
     "Javascript",
     "Python",
-    "Unity",
     "Shell scripts",
     "GraphQL APIs",
     "RabbitMQ"
