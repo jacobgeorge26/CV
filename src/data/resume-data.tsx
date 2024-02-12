@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "A full stack software engineer with three years experience developing production-level code",
   summary:
-    "Comfortable with all aspects of software development: outling project specifications with stakeholders in the initial planning stages, developing robust solutions with future maintenance in mind, to writing tests and documentation. Whilst my experience primarily lies in .NET applications, I frequently undertake projects involving unfamiliar tech stacks. I am adept at learning and adapting to the new skills required.",
+    "Comfortable with all aspects of software development: from outling project specifications with stakeholders in the initial planning stages, developing robust solutions with future maintenance in mind, to writing tests and documentation. Whilst my experience primarily lies in .NET applications, I frequently undertake projects involving unfamiliar tech stacks. I am adept at learning and adapting to the new skills required.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/87342120?v=4",
   personalWebsiteUrl: "",
   contact: {
