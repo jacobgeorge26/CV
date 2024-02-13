@@ -39,7 +39,7 @@ export const RESUME_DATA = {
         "The Release Engineering team is responsible for developing tools to serve both internal and external users. After taking lead on several projects I was promoted within the team.",
       highlights: [
         "Created a .NET middleware service to transfer data between Discourse and Jira, using Google Cloud Pub/Sub to receive webhooks from each.",
-        "Decommissioned a legacy internal bug tracking system. I coordinated with stakeholders to identify the future needs for the data then developed a background service to idempotently migrate it into BigQuery. Associated attachments were transferred into GCP buckets and a RESTful API was created to serve them.  An nginx server was established to redirect the legacy URLs.",
+        "Decommissioned a legacy internal bug tracking system. I coordinated with stakeholders to identify the future needs for the data, then developed a background service to idempotently migrate it into BigQuery. Associated attachments were transferred into GCP buckets and a RESTful API was created to serve them.  An nginx server was established to redirect the legacy URLs.",
         "Created a No-SQL database of JSON files to store data in a GitHub repo, alongside Cue Blox data validation. Docusaurus was used to serve a static site and a GraphQL API.",
         "Collaborated with my team to publish a Unity package, enabling users to isolate their bug into a repro project to submit alongside their bug report.",
         "Converted a CI/CD pipeline from shell scripts into GitHub Actions and Nuke.",
