@@ -26,7 +26,7 @@ export default function Page() {
         <Experience />
         <Education />
         <Skills />
-        <Projects />
+        {/*<Projects />*/}
       </SectionSpacing>
     </Container>
   );

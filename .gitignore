@@ -37,3 +37,6 @@ next-env.d.ts
 
 # ide
 .idea
+package-lock.json
+yarn.lock
+yarn.lock
