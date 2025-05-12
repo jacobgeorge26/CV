@@ -3,6 +3,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { Experience } from "@/components/page-components/Experience";
 import { Education } from "@/components/page-components/Education";
 import { Skills } from "@/components/page-components/Skills";
+import { Interests } from "@/components/page-components/Interests";
 import { Projects } from "@/components/page-components/Projects";
 import { About } from "@/components/page-components/About";
 import { SectionSpacing } from "@/components/page-components/SectionSpacing";
@@ -26,6 +27,7 @@ export default function Page() {
         <Experience />
         <Education />
         <Skills />
+        <Interests />
         {/*<Projects />*/}
       </SectionSpacing>
     </Container>

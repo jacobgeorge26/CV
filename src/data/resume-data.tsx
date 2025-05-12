@@ -114,6 +114,13 @@ export const RESUME_DATA = {
     "Pub/Sub",
     "RabbitMQ"
   ],
+  interests:[
+    "Bike mechanics",
+    "Hiking",
+    "Travel around Europe",
+    "Cheese",
+    "Bikeability instructor"
+  ],
   projects: [
     {
       title: "Lizardbot",
